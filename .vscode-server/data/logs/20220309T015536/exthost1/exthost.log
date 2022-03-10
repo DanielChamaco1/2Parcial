@@ -1,0 +1,31 @@
+[2022-03-09 01:55:51.395] [exthost] [info] Extension host with pid 878 started
+[2022-03-09 01:55:51.833] [exthost] [info] Lock '/home/daniel_chamaca_25/.vscode-server/data/User/workspaceStorage/8b1b51c69f2d372a8c1dbfa8880d41cc/vscode.lock': Lock acquired.
+[2022-03-09 01:55:53.120] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-03-09 01:55:53.144] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-03-09 01:55:53.159] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-03-09 01:55:53.221] [exthost] [info] ExtensionService#_doActivateExtension sabrsorensen.synthwave-blues, startup: true, activationEvent: '*'
+[2022-03-09 01:55:53.356] [exthost] [error] Activating extension sabrsorensen.synthwave-blues failed due to an error:
+[2022-03-09 01:55:53.356] [exthost] [error] ReferenceError: whatsNew is not defined
+	at activate (/home/daniel_chamaca_25/.vscode-server/extensions/sabrsorensen.synthwave-blues-0.0.2/src/extension.js:122:29)
+	at Function._callActivateOptional (/home/daniel_chamaca_25/.vscode-server/bin/8908a9ca0f221f36507231afb39d2d8d1e182702/out/vs/workbench/api/node/extensionHostProcess.js:90:16082)
+	at Function._callActivate (/home/daniel_chamaca_25/.vscode-server/bin/8908a9ca0f221f36507231afb39d2d8d1e182702/out/vs/workbench/api/node/extensionHostProcess.js:90:15747)
+	at /home/daniel_chamaca_25/.vscode-server/bin/8908a9ca0f221f36507231afb39d2d8d1e182702/out/vs/workbench/api/node/extensionHostProcess.js:90:13571
+	at processTicksAndRejections (internal/process/task_queues.js:93:5)
+	at async Promise.all (index 3)
+	at async Promise.all (index 0)
+[2022-03-09 01:55:53.357] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-03-09 01:55:53.671] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-03-09 01:55:58.127] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-09 01:55:58.192] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-09 01:55:58.205] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-09 01:55:58.869] [exthost] [info] Eager extensions activated
+[2022-03-09 02:01:14.521] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 2555
+[2022-03-09 02:02:22.529] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 2555
+[2022-03-09 02:04:11.098] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 2555
+[2022-03-09 02:04:36.760] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 2555
+[2022-03-09 02:04:57.010] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 2555
+[2022-03-09 02:05:15.569] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 2555
+[2022-03-09 02:05:33.132] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 2555
+[2022-03-09 02:05:56.092] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 2555
+[2022-03-09 02:07:12.213] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 2555
+[2022-03-09 02:07:34.558] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 2555

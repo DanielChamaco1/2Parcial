@@ -1,0 +1,21 @@
+[2022-03-08 23:09:49.551] [remoteagent] [info] Extension host agent started.
+[2022-03-08 23:09:49.662] [remoteagent] [info] [127.0.0.1][2ce9cb5b][ManagementConnection] New connection established.
+[2022-03-08 23:09:49.958] [remoteagent] [info] [127.0.0.1][d1cbdc2c][ExtensionHostConnection] New connection established.
+[2022-03-08 23:09:53.477] [remoteagent] [info] [127.0.0.1][d1cbdc2c][ExtensionHostConnection] <80> Launched Extension Host Process.
+[2022-03-08 23:09:54.577] [remoteagent] [info] Deleted from disk ritwickdey.liveserver /home/daniel_chamaca_25/.vscode-server/extensions/ritwickdey.liveserver-5.7.4
+[2022-03-08 23:10:09.599] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-03-09 01:40:24.386] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-03-09 01:42:02.721] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-03-09 01:46:37.827] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-03-09 01:46:44.909] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-03-09 01:46:51.904] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-03-09 01:48:57.443] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-03-09 01:49:14.691] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-03-09 01:49:36.068] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-03-09 01:49:43.258] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-03-09 01:52:54.973] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-03-09 01:53:02.138] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-03-09 01:55:26.408] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-03-09 01:55:29.819] [remoteagent] [info] [127.0.0.1][2ce9cb5b][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-03-09 01:55:29.964] [remoteagent] [info] [127.0.0.1][d1cbdc2c][ExtensionHostConnection] <80> Extension Host Process exited with code: 0, signal: null.
+[2022-03-09 01:55:33.049] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds

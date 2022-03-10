@@ -1,0 +1,20 @@
+[2022-03-08 18:52:44.381] [exthost] [info] Extension host with pid 61 started
+[2022-03-08 18:52:44.541] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-03-08 18:52:44.564] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-03-08 18:52:44.580] [exthost] [info] ExtensionService#_doActivateExtension sabrsorensen.synthwave-blues, startup: true, activationEvent: '*'
+[2022-03-08 18:52:44.659] [exthost] [error] Activating extension sabrsorensen.synthwave-blues failed due to an error:
+[2022-03-08 18:52:44.660] [exthost] [error] ReferenceError: whatsNew is not defined
+	at activate (/home/daniel_chamaca_25/.vscode-server/extensions/sabrsorensen.synthwave-blues-0.0.2/src/extension.js:122:29)
+	at Function._callActivateOptional (/home/daniel_chamaca_25/.vscode-server/bin/f80445acd5a3dadef24aa209168452a3d97cc326/out/vs/workbench/services/extensions/node/extensionHostProcess.js:98:16040)
+	at Function._callActivate (/home/daniel_chamaca_25/.vscode-server/bin/f80445acd5a3dadef24aa209168452a3d97cc326/out/vs/workbench/services/extensions/node/extensionHostProcess.js:98:15704)
+	at /home/daniel_chamaca_25/.vscode-server/bin/f80445acd5a3dadef24aa209168452a3d97cc326/out/vs/workbench/services/extensions/node/extensionHostProcess.js:98:13528
+	at processTicksAndRejections (internal/process/task_queues.js:93:5)
+	at async Promise.all (index 2)
+	at async Promise.all (index 0)
+[2022-03-08 18:52:44.661] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-03-08 18:52:44.902] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-03-08 18:52:47.631] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-08 18:52:47.665] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-08 18:52:47.674] [exthost] [info] Eager extensions activated
+[2022-03-08 23:08:16.832] [exthost] [info] extension host terminating: received terminate message from renderer
+[2022-03-08 23:08:16.891] [exthost] [info] Extension host with pid 61 exiting with code 0

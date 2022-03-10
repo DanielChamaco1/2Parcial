@@ -1,0 +1,22 @@
+[2022-03-08 23:09:58.629] [exthost] [info] Extension host with pid 80 started
+[2022-03-08 23:09:59.013] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-03-08 23:09:59.082] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-03-08 23:09:59.142] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-03-08 23:09:59.339] [exthost] [info] ExtensionService#_doActivateExtension sabrsorensen.synthwave-blues, startup: true, activationEvent: '*'
+[2022-03-08 23:09:59.569] [exthost] [error] Activating extension sabrsorensen.synthwave-blues failed due to an error:
+[2022-03-08 23:09:59.569] [exthost] [error] ReferenceError: whatsNew is not defined
+	at activate (/home/daniel_chamaca_25/.vscode-server/extensions/sabrsorensen.synthwave-blues-0.0.2/src/extension.js:122:29)
+	at Function._callActivateOptional (/home/daniel_chamaca_25/.vscode-server/bin/8908a9ca0f221f36507231afb39d2d8d1e182702/out/vs/workbench/api/node/extensionHostProcess.js:90:16082)
+	at Function._callActivate (/home/daniel_chamaca_25/.vscode-server/bin/8908a9ca0f221f36507231afb39d2d8d1e182702/out/vs/workbench/api/node/extensionHostProcess.js:90:15747)
+	at /home/daniel_chamaca_25/.vscode-server/bin/8908a9ca0f221f36507231afb39d2d8d1e182702/out/vs/workbench/api/node/extensionHostProcess.js:90:13571
+	at processTicksAndRejections (internal/process/task_queues.js:93:5)
+	at async Promise.all (index 3)
+	at async Promise.all (index 0)
+[2022-03-08 23:09:59.570] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-03-08 23:09:59.999] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-03-08 23:10:04.627] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-08 23:10:04.777] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-08 23:10:04.854] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-08 23:10:08.288] [exthost] [info] Eager extensions activated
+[2022-03-09 01:55:29.865] [exthost] [info] extension host terminating: received terminate message from renderer
+[2022-03-09 01:55:29.932] [exthost] [info] Extension host with pid 80 exiting with code 0
